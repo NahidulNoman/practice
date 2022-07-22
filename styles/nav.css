@@ -1,0 +1,29 @@
+nav, li {
+    list-style: none;
+    margin-right: 20px;
+}
+nav, li, a{
+    text-decoration: none;
+    color:black;
+    font-weight: 700;
+    font-size: 20px;
+}
+li:hover{
+    background-color: rgb(165, 157, 157);
+}
+nav > ul{
+    display: flex;
+}
+nav > ul > li:hover > ul{
+    display: block;
+    background-color: aquamarine;
+}
+
+.dropdown{
+    display:none;
+    position: absolute;
+   
+    padding:4px;
+    
+}
+

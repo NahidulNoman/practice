@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/nav.css">
+  <title>Table-Design</title>
+  <style>
+    table, td, th{
+    border:2px solid black;
+    border-collapse:collapse;
+    padding:10px;
+    width:500px;
+    margin:auto;
+} 
+h1{
+    text-align: center;
+}
+td{
+    color:blueviolet;
+    background-color: beige;
+    text-align: center;
+    font-weight: 600;
+
+}
+td:hover{
+    color:red;
+    background-color: aquamarine;
+    
+}
+th:hover{
+    background-color: beige;
+    font-weight:700;
+    font-size: 20px;
+    color:red
+}
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="form.html">Form</a></li>
+            <li><a href="table.html">Table</a></li>
+            <li><a href="audio-video.html">Media</a></li>
+            <li><a href="#">Services</a></li>
+        </ul>
+    </nav>
+    <h1>This is My first Nav-bar.</h1>
+</header>
+  <h1>This is my Duty Table.</h1><br>
+  <table>
+   <thead>
+    <tr>
+      <th>Name</th>
+      <th>Language</th>
+      <th>Job-title</th>
+    </tr>
+   </thead>
+    <tbody>
+      <tr>
+        <td>Noman</td>
+        <td>JavaScript</td>
+        <td>Font-end</td>
+      </tr>
+      <tr>
+         <td>Abedin</td>
+         <td>HTML</td>
+         <td>Designer</td>
+      </tr>
+      <tr>
+         <td>Besik</td>
+         <td>CSS</td>
+         <td>Grid</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
